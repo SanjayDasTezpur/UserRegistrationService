@@ -54,6 +54,8 @@ management:
         enabled: false # http://micrometer.io/ is disabled by default, as we use http://metrics.dropwizard.io/ instead
 
 spring:
+    profile :
+        active : prod
     application:
         name: UserRegistrationService
     cloud:
